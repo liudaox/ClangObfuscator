@@ -1,0 +1,2 @@
+export BD=/Users/Naville/Desktop/llvm/build
+$BD/bin/clang -x objective-c -fsyntax-only -Xclang -load -Xclang $BD/lib/ObjcObfuscator.dylib -Xclang -plugin -Xclang -ObjcClassGuard /Users/Naville/Desktop/llvm/llvm/tools/clang/examples/ObjcObfuscator/FclBlowfish.m
