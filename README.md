@@ -12,4 +12,9 @@
 >>When whould they buy Apple and LLVM, then sue me for violating their "Patent"? Ewww I'm So Afraid.
 
 >ToDo:In-AST Replacement
+###Details:
+>Debugging infos are printed using llvm::errs()---NOT REDIRECTABLE
 
+>"Useful" infos are printed using std::---REDIRECTABLE
+
+>So just run the plugin normally with >PATHTOOUTPUTFOLDER/Output.h would do
