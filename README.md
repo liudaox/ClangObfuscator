@@ -19,5 +19,6 @@
 
 >So just run the plugin normally with >PATHTOOUTPUTFOLDER/Output.h would do
 
+>That GenerateStrings.py is used for generating obfuscation characters base.
 
->That .py is used for generating obfuscation characters base.
+>The other .py is a wrapper for loading this plugin
