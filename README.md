@@ -18,3 +18,6 @@
 >"Useful" infos are printed using std::---REDIRECTABLE
 
 >So just run the plugin normally with >PATHTOOUTPUTFOLDER/Output.h would do
+
+
+>That .py is used for generating obfuscation characters base.
